@@ -1,0 +1,1214 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-26 19:29:22 +0000
+Served asset /rails.png - 200 OK (7ms)
+
+
+Started GET "/tounament" for 127.0.0.1 at 2012-01-26 19:29:28 +0000
+
+ActionController::RoutingError (No route matches [GET] "/tounament"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/anthonymarques/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/anthonymarques/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/anthonymarques/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/tounaments" for 127.0.0.1 at 2012-01-26 19:29:31 +0000
+
+ActionController::RoutingError (No route matches [GET] "/tounaments"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/anthonymarques/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/anthonymarques/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/anthonymarques/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/tournaments" for 127.0.0.1 at 2012-01-26 19:29:40 +0000
+Processing by TournamentsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'tournaments'):
+  app/controllers/tournaments_controller.rb:5:in `index'
+
+
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/tournament" for 127.0.0.1 at 2012-01-26 19:29:42 +0000
+
+ActionController::RoutingError (No route matches [GET] "/tournament"):
+  actionpack (3.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.0) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.0) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.0) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.0) lib/action_dispatch/middleware/static.rb:53:in `call'
+  railties (3.2.0) lib/rails/engine.rb:479:in `call'
+  railties (3.2.0) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.0) lib/rails/rack/log_tailer.rb:14:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/anthonymarques/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/anthonymarques/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/anthonymarques/.rvm/rubies/ruby-1.9.3-p0/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/tournaments" for 127.0.0.1 at 2012-01-26 19:29:46 +0000
+Processing by TournamentsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'tournaments'):
+  app/controllers/tournaments_controller.rb:5:in `index'
+
+
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.5ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+  [1m[36m (0.2ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (43.9ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (4.0ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateTournaments (20120126192900)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "tournaments" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "description" text, "date_begin" date, "date_end" date, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20120126192900')
+  [1m[36m (4.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("tournaments")
+
+
+Started GET "/tournaments" for 127.0.0.1 at 2012-01-26 19:30:41 +0000
+Processing by TournamentsController#index as HTML
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" [0m
+  Rendered tournaments/index.html.erb within layouts/application (1.1ms)
+Compiled scaffolds.css  (42ms)  (pid 73239)
+Compiled tournaments.css  (1ms)  (pid 73239)
+Compiled application.css  (60ms)  (pid 73239)
+Compiled jquery.js  (30ms)  (pid 73239)
+Compiled jquery_ujs.js  (0ms)  (pid 73239)
+Compiled tournaments.js  (137ms)  (pid 73239)
+Compiled application.js  (262ms)  (pid 73239)
+Completed 200 OK in 374ms (Views: 372.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:30:41 +0000
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:30:41 +0000
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:30:41 +0000
+Served asset /tournaments.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:30:41 +0000
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:30:41 +0000
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:30:41 +0000
+Served asset /tournaments.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:30:41 +0000
+Served asset /application.js - 200 OK (7ms)
+
+
+Started GET "/tournaments/new" for 127.0.0.1 at 2012-01-26 19:30:45 +0000
+Processing by TournamentsController#new as HTML
+  Rendered tournaments/_form.html.erb (49.9ms)
+  Rendered tournaments/new.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 75ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:30:45 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started POST "/tournaments" for 127.0.0.1 at 2012-01-26 19:31:19 +0000
+Processing by TournamentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2badQJV28+1fIf8I+FhbMXy7f3wxqMPSd4RCe8W54xY=", "tournament"=>{"name"=>"Tournoi Supinfo", "description"=>"24h LOL FIFA etc...", "date_begin(1i)"=>"2012", "date_begin(2i)"=>"2", "date_begin(3i)"=>"2", "date_end(1i)"=>"2012", "date_end(2i)"=>"2", "date_end(3i)"=>"3"}, "commit"=>"Create Tournament"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (15.4ms)[0m  [1mINSERT INTO "tournaments" ("created_at", "date_begin", "date_end", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 26 Jan 2012 19:31:19 UTC +00:00], ["date_begin", Thu, 02 Feb 2012], ["date_end", Fri, 03 Feb 2012], ["description", "24h LOL FIFA etc..."], ["name", "Tournoi Supinfo"], ["updated_at", Thu, 26 Jan 2012 19:31:19 UTC +00:00]]
+  [1m[35m (4.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/tournaments/1
+Completed 302 Found in 26ms (ActiveRecord: 20.1ms)
+
+
+Started GET "/tournaments/1" for 127.0.0.1 at 2012-01-26 19:31:19 +0000
+Processing by TournamentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTournament Load (0.4ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  Rendered tournaments/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:31:19 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:31:19 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:31:19 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/tournaments" for 127.0.0.1 at 2012-01-26 19:31:22 +0000
+Processing by TournamentsController#index as HTML
+  [1m[35mTournament Load (0.3ms)[0m  SELECT "tournaments".* FROM "tournaments" 
+  Rendered tournaments/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:31:22 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:31:23 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:31:23 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2012-01-26 19:35:02 +0000
+Processing by TeamsController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::StatementInvalid (Could not find table 'teams'):
+  app/controllers/teams_controller.rb:5:in `index'
+
+
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.9ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateTournaments (20120126192900)
+Migrating to CreateTeams (20120126193454)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "teams" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "tournament_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("teams")[0m
+  [1m[35m (0.2ms)[0m  CREATE INDEX "index_teams_on_tournament_id" ON "teams" ("tournament_id")
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20120126193454')[0m
+  [1m[35m (44.9ms)[0m  commit transaction
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("teams")[0m
+  [1m[35m (0.1ms)[0m  PRAGMA index_info('index_teams_on_tournament_id')
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("tournaments")[0m
+
+
+Started GET "/teams" for 127.0.0.1 at 2012-01-26 19:35:11 +0000
+Processing by TeamsController#index as HTML
+  [1m[36mTeam Load (0.3ms)[0m  [1mSELECT "teams".* FROM "teams" [0m
+  Rendered teams/index.html.erb within layouts/application (1.1ms)
+Compiled teams.css  (1ms)  (pid 73239)
+Compiled application.css  (9ms)  (pid 73239)
+Compiled teams.js  (109ms)  (pid 73239)
+Compiled application.js  (145ms)  (pid 73239)
+Completed 200 OK in 305ms (Views: 303.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:35:11 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:35:11 +0000
+Served asset /teams.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:35:11 +0000
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:35:11 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:35:11 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:35:11 +0000
+Served asset /teams.js - 200 OK (2ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:35:11 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:35:11 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:35:11 +0000
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/teams/new" for 127.0.0.1 at 2012-01-26 19:35:13 +0000
+Processing by TeamsController#new as HTML
+  Rendered teams/_form.html.erb (42.7ms)
+  Rendered teams/new.html.erb within layouts/application (44.3ms)
+Completed 200 OK in 58ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:35:13 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:35:13 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:35:13 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:35:13 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:35:13 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:35:13 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:35:13 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:35:13 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:35:13 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateTournaments (20120126192900)
+Migrating to CreateTeams (20120126193454)
+  [1m[35m (0.2ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("teams")
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_info('index_teams_on_tournament_id')[0m
+  [1m[35m (0.0ms)[0m  PRAGMA index_list("tournaments")
+
+
+Started GET "/teams" for 127.0.0.1 at 2012-01-26 19:37:21 +0000
+Processing by TeamsController#index as HTML
+  [1m[35mTeam Load (0.2ms)[0m  SELECT "teams".* FROM "teams" 
+  Rendered teams/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:21 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:21 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:21 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:21 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:21 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:21 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:22 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:22 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:22 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/new" for 127.0.0.1 at 2012-01-26 19:37:24 +0000
+Processing by TeamsController#new as HTML
+  Rendered teams/_form.html.erb (3.3ms)
+  Rendered teams/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 18ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:24 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:24 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:24 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:24 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:24 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:24 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:24 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:24 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:24 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/tournaments" for 127.0.0.1 at 2012-01-26 19:37:45 +0000
+Processing by TournamentsController#index as HTML
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" [0m
+  Rendered tournaments/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 52ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:45 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:45 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:45 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:45 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:45 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:45 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:45 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:45 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:45 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/tournaments/1" for 127.0.0.1 at 2012-01-26 19:37:53 +0000
+Processing by TournamentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTournament Load (0.3ms)[0m  SELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1  [["id", "1"]]
+  Rendered tournaments/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:53 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:53 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:53 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:53 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:53 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:37:53 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:53 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:53 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:37:53 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/tournaments/new" for 127.0.0.1 at 2012-01-26 19:38:04 +0000
+Processing by TournamentsController#new as HTML
+  Rendered tournaments/_form.html.erb (31.4ms)
+  Rendered tournaments/new.html.erb within layouts/application (32.6ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:04 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:04 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:04 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:04 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:04 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:04 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:04 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:04 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:04 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2012-01-26 19:38:10 +0000
+Processing by TeamsController#index as HTML
+  [1m[36mTeam Load (0.2ms)[0m  [1mSELECT "teams".* FROM "teams" [0m
+  Rendered teams/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:10 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:10 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:10 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:10 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:10 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:10 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:10 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:10 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:10 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/new" for 127.0.0.1 at 2012-01-26 19:38:11 +0000
+Processing by TeamsController#new as HTML
+  Rendered teams/_form.html.erb (3.6ms)
+  Rendered teams/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:12 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:12 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:12 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:12 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:12 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:38:12 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:12 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:12 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:38:12 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started POST "/teams" for 127.0.0.1 at 2012-01-26 19:38:21 +0000
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2badQJV28+1fIf8I+FhbMXy7f3wxqMPSd4RCe8W54xY=", "team"=>{"name"=>"FTW", "tournament"=>"Tournoi Supinfo"}, "commit"=>"Create Team"}
+Completed 500 Internal Server Error in 2ms
+
+ActiveRecord::AssociationTypeMismatch (Tournament(#70269109374360) expected, got String(#70269096153480)):
+  app/controllers/teams_controller.rb:43:in `new'
+  app/controllers/teams_controller.rb:43:in `create'
+
+
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started POST "/teams" for 127.0.0.1 at 2012-01-26 19:40:57 +0000
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2badQJV28+1fIf8I+FhbMXy7f3wxqMPSd4RCe8W54xY=", "team"=>{"name"=>"FTW", "tournament"=>"0"}, "commit"=>"Create Team"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::AssociationTypeMismatch (Tournament(#70269109374360) expected, got String(#70269096153480)):
+  app/controllers/teams_controller.rb:43:in `new'
+  app/controllers/teams_controller.rb:43:in `create'
+
+
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.9ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2012-01-26 19:41:11 +0000
+Processing by TeamsController#index as HTML
+  [1m[35mTeam Load (0.2ms)[0m  SELECT "teams".* FROM "teams" 
+  Rendered teams/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:11 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:11 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:11 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:11 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:11 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:11 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:11 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:11 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:11 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/tournaments" for 127.0.0.1 at 2012-01-26 19:41:17 +0000
+Processing by TournamentsController#index as HTML
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" [0m
+  Rendered tournaments/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:17 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:17 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:17 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:17 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:17 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:17 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:17 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:17 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:17 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/tournaments/new" for 127.0.0.1 at 2012-01-26 19:41:19 +0000
+Processing by TournamentsController#new as HTML
+  Rendered tournaments/_form.html.erb (9.5ms)
+  Rendered tournaments/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:19 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:19 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:19 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:19 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:19 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:19 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:19 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:19 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:19 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/tournaments" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Processing by TournamentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2badQJV28+1fIf8I+FhbMXy7f3wxqMPSd4RCe8W54xY=", "tournament"=>{"name"=>"ghjkl", "description"=>"jbohàogç", "date_begin(1i)"=>"2012", "date_begin(2i)"=>"1", "date_begin(3i)"=>"26", "date_end(1i)"=>"2012", "date_end(2i)"=>"1", "date_end(3i)"=>"26"}, "commit"=>"Create Tournament"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "tournaments" ("created_at", "date_begin", "date_end", "description", "name", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", Thu, 26 Jan 2012 19:41:23 UTC +00:00], ["date_begin", Thu, 26 Jan 2012], ["date_end", Thu, 26 Jan 2012], ["description", "jbohàogç"], ["name", "ghjkl"], ["updated_at", Thu, 26 Jan 2012 19:41:23 UTC +00:00]]
+  [1m[35m (3.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/tournaments/2
+Completed 302 Found in 10ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/tournaments/2" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Processing by TournamentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered tournaments/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:23 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2012-01-26 19:41:31 +0000
+Processing by TeamsController#index as HTML
+  [1m[35mTeam Load (0.2ms)[0m  SELECT "teams".* FROM "teams" 
+  Rendered teams/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:31 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:31 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:31 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:31 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:31 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:31 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:31 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:31 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:31 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/new" for 127.0.0.1 at 2012-01-26 19:41:32 +0000
+Processing by TeamsController#new as HTML
+  Rendered teams/_form.html.erb (2.4ms)
+  Rendered teams/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:32 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:32 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:32 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:32 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:32 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:32 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 19:41:32 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:32 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 19:41:32 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/teams" for 127.0.0.1 at 2012-01-26 19:41:37 +0000
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2badQJV28+1fIf8I+FhbMXy7f3wxqMPSd4RCe8W54xY=", "team"=>{"name"=>"FTW", "tournament"=>"1"}, "commit"=>"Create Team"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::AssociationTypeMismatch (Tournament(#70269109374360) expected, got String(#70269096153480)):
+  app/controllers/teams_controller.rb:43:in `new'
+  app/controllers/teams_controller.rb:43:in `create'
+
+
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started POST "/teams" for 127.0.0.1 at 2012-01-26 19:41:56 +0000
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2badQJV28+1fIf8I+FhbMXy7f3wxqMPSd4RCe8W54xY=", "team"=>{"name"=>"FTW", "tournament"=>"2"}, "commit"=>"Create Team"}
+Completed 500 Internal Server Error in 1ms
+
+ActiveRecord::AssociationTypeMismatch (Tournament(#70269109374360) expected, got String(#70269096153480)):
+  app/controllers/teams_controller.rb:43:in `new'
+  app/controllers/teams_controller.rb:43:in `create'
+
+
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /Users/anthonymarques/.rvm/gems/ruby-1.9.3-p0/gems/actionpack-3.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-26 20:20:53 +0000
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/teams" for 127.0.0.1 at 2012-01-26 20:20:59 +0000
+Processing by TeamsController#index as HTML
+  [1m[36mTeam Load (0.3ms)[0m  [1mSELECT "teams".* FROM "teams" [0m
+  Rendered teams/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 20:20:59 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 20:20:59 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 20:20:59 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 20:20:59 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 20:20:59 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 20:20:59 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 20:20:59 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 20:20:59 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 20:20:59 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/new" for 127.0.0.1 at 2012-01-26 20:21:01 +0000
+Processing by TeamsController#new as HTML
+  Rendered teams/_form.html.erb (3.8ms)
+  Rendered teams/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 20:21:01 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 20:21:01 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 20:21:01 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 20:21:01 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 20:21:01 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 20:21:01 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 20:21:01 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 20:21:01 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 20:21:01 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/new" for 127.0.0.1 at 2012-01-26 20:27:52 +0000
+Processing by TeamsController#new as HTML
+  [1m[35mTournament Load (0.2ms)[0m  SELECT "tournaments".* FROM "tournaments" 
+  Rendered teams/_form.html.erb (5.6ms)
+  Rendered teams/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 20:27:52 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 20:27:52 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 20:27:52 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 20:27:52 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 20:27:52 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 20:27:52 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 20:27:52 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 20:27:52 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 20:27:52 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/teams" for 127.0.0.1 at 2012-01-26 20:28:08 +0000
+Processing by TeamsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2badQJV28+1fIf8I+FhbMXy7f3wxqMPSd4RCe8W54xY=", "team"=>{"name"=>"FTW", "tournament_id"=>"1"}, "commit"=>"Create Team"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "teams" ("created_at", "name", "tournament_id", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Thu, 26 Jan 2012 20:28:08 UTC +00:00], ["name", "FTW"], ["tournament_id", 1], ["updated_at", Thu, 26 Jan 2012 20:28:08 UTC +00:00]]
+  [1m[36m (34.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/teams/1
+Completed 302 Found in 39ms (ActiveRecord: 35.1ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2012-01-26 20:28:08 +0000
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.2ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mTournament Load (0.3ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = 1 LIMIT 1[0m
+  Rendered teams/show.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 38ms (Views: 35.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 20:28:08 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 20:28:08 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 20:28:08 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 20:28:08 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 20:28:08 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 20:28:09 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 20:28:09 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 20:28:09 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 20:28:09 +0000
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/teams/1" for 127.0.0.1 at 2012-01-26 20:29:45 +0000
+Processing by TeamsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeam Load (0.2ms)[0m  SELECT "teams".* FROM "teams" WHERE "teams"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mTournament Load (0.2ms)[0m  [1mSELECT "tournaments".* FROM "tournaments" WHERE "tournaments"."id" = 1 LIMIT 1[0m
+  Rendered teams/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-26 20:29:45 +0000
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-01-26 20:29:45 +0000
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-26 20:29:45 +0000
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.css?body=1" for 127.0.0.1 at 2012-01-26 20:29:45 +0000
+Served asset /teams.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.css?body=1" for 127.0.0.1 at 2012-01-26 20:29:45 +0000
+Served asset /tournaments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-26 20:29:45 +0000
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tournaments.js?body=1" for 127.0.0.1 at 2012-01-26 20:29:45 +0000
+Served asset /tournaments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/teams.js?body=1" for 127.0.0.1 at 2012-01-26 20:29:45 +0000
+Served asset /teams.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-26 20:29:45 +0000
+Served asset /application.js - 304 Not Modified (0ms)
